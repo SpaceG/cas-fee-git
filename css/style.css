@@ -162,6 +162,16 @@ ul.obj-nav-right {
   display: -webkit-box;
   padding-left: 20px; }
 
+/* Main Tablle Settings and Stylesheet */
+main.obj-main-tablle-list, h1 {
+  /* text-align: center;*/ }
+
+main.obj-main-tablle-list {
+  max-width: 980px;
+  background: gray;
+  /* display: table-footer-group; */
+  margin: 0 auto; }
+
 /*layout styles by lucas gatsas */
 /* Stylessheet by 
    Lucas Gatsas. 

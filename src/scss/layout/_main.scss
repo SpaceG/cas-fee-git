@@ -205,3 +205,13 @@ ul.obj-nav-right {
 
 }
 
+/* Main Tablle Settings and Stylesheet */ 
+main.obj-main-tablle-list, h1 {
+   /* text-align: center;*/
+}
+main.obj-main-tablle-list {
+    max-width: 980px;
+    background: gray;
+    /* display: table-footer-group; */
+    margin: 0 auto;
+}
