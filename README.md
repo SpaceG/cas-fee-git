@@ -2,9 +2,11 @@
 Project HSR - CAS-FEE-Source - http://www.hsr.ch  Switzerland - The Notice App - Using Node.js 
 
 
+
+
 <h1>Get Started with the Cas Fee Git</h1>
 
-cassfee-1.png
+This Project is Only built with node.js, grunt.js, sass, javascript and html/css. 
 
 ![alt tag](cassfee-1.png)
 
