@@ -32,12 +32,14 @@ Ausdruck: ( <Merkmal> [: <Wert>]? )
   | scan | grid 
 
 */
+/* Import Google Open Sans Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
 html {
   margin: 0px; }
 
 body {
   background: gray;
-  font-family: Helvetica, Georgia;
+  font-family: 'Open Sans', Helvetica, Georgia;
   color: black;
   font-weight: bold;
   margin: 0px; }
@@ -53,47 +55,73 @@ header {
 
 header, .h1 {
   color: #D4D4D4;
-  font-size: 14px;
-  text-align: center; }
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 1px;
+  padding-top: 50px; }
 
 footer {
   width: 100%;
-  background: #4CAF50;
+  background: #2D2D2D;
   color: white;
   font-size: 9px;
-  text-align: center; }
+  text-align: center;
+  height: 70px;
+  padding-top: 30px; }
 
-.btn, a {
+/*adding button */
+.addbtn {
+  border: 1px solid green;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: px;
+  margin-top: 14px; }
+
+adding-btn, a {
+  /* border: 1px solid green; */
+  font-size: 7px;
   color: #4CAF50;
   text-decoration: none; }
 
-.btn, a:hover {
-  color: #fff;
-  text-decoration: none; }
+adding-btn, a:hover {
+  /* border: 1px solid green; */
+  font-size: 7px;
+  color: white;
+  text-decoration: none;
+  background: green; }
 
-.btn {
-  background: white;
-  color: #4CAF50;
-  margin-top: 10px;
-  padding: 2px;
-  padding-left: 19px;
-  padding-right: 19px;
-  font-size: 9px;
-  cursor: pointer;
-  border-radius: 4px;
-  border: 1px solid #4CAF50; }
+.addbtn:hover {
+  background: green; }
 
-.btn:hover {
+/* btn for the list and edit btn */
+.bttnSmall-a {
   background: #4CAF50;
   color: white;
-  margin-top: 10px;
   padding: 2px;
-  padding-left: 19px;
-  padding-right: 19px;
-  font-size: 9px;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 7px;
   cursor: pointer;
   border-radius: 4px;
-  border: 1px solid #4CAF50; }
+  border: 1px solid #4CAF50;
+  /* width: 80px; */
+  float: right; }
+
+.bttnSmall-a:hover {
+  background: #fff;
+  color: green;
+  padding: 2px;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 7px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #4CAF50;
+  /* width: 80px; */
+  float: right; }
+
+.bttnSmall-a, a:hover {
+  color: white; }
 
 /* DropDown Menu */
 .switchbtn {
