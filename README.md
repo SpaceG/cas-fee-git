@@ -4,6 +4,9 @@ Project HSR - CAS-FEE-Source - http://www.hsr.ch  Switzerland - The Notice App -
 
 <h1>Get Started with the Cas Fee Git</h1>
 
+cassfee-1.png
+
+![alt tag](cassfee-1.png)
 
 
 <code>cd cas-fee-git</code>
