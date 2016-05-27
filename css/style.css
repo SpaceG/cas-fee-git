@@ -68,11 +68,11 @@ main {
 
 .btn, a {
   color: #4CAF50;
-  underline: none; }
+  text-decoration: none; }
 
 .btn, a:hover {
   color: #fff;
-  underline: none; }
+  text-decoration: none; }
 
 .btn {
   background: white;
