@@ -49,10 +49,10 @@ nav {
 header {
   width: 100%;
   padding-top: 40px;
-  background: #4CAF50; }
+  background: #F7F7F7; }
 
 header, .h1 {
-  color: white;
+  color: #D4D4D4;
   font-size: 14px;
   text-align: center; }
 
@@ -62,9 +62,6 @@ footer {
   color: white;
   font-size: 9px;
   text-align: center; }
-
-main {
-  background: gray; }
 
 .btn, a {
   color: #4CAF50;
