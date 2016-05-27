@@ -199,7 +199,9 @@ ul.obj-nav-right {
 
 /* Menu On top stylesheet */
 
-.obj-menu-top-notice-inner, ul {
+.obj-menu-top-notice-inner, ul, li {
     display: -webkit-box;
+     padding-left: 20px;
+
 }
 

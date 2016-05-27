@@ -161,8 +161,9 @@ ul.obj-nav-right {
   padding-left: 15px; }
 
 /* Menu On top stylesheet */
-.obj-menu-top-notice-inner, ul {
-  display: -webkit-box; }
+.obj-menu-top-notice-inner, ul, li {
+  display: -webkit-box;
+  padding-left: 20px; }
 
 /*layout styles by lucas gatsas */
 /* Stylessheet by 
