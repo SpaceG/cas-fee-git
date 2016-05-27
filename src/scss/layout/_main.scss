@@ -206,12 +206,23 @@ ul.obj-nav-right {
 }
 
 /* Main Tablle Settings and Stylesheet */ 
-main.obj-main-tablle-list, h1 {
-   /* text-align: center;*/
+
+table {}
+
+tr {
+    background: #F7F7F7;
+}
+td {
+    padding: 10px;
 }
 main.obj-main-tablle-list {
-    max-width: 980px;
-    background: gray;
-    /* display: table-footer-group; */
+   	max-width: 980px;
     margin: 0 auto;
+}
+
+.obj-main-h1, .h1 {
+	background: white;
+}
+.obj-main-h1, .h1 {
+    text-align: center;
 }

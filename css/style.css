@@ -163,14 +163,21 @@ ul.obj-nav-right {
   padding-left: 20px; }
 
 /* Main Tablle Settings and Stylesheet */
-main.obj-main-tablle-list, h1 {
-  /* text-align: center;*/ }
+tr {
+  background: #F7F7F7; }
+
+td {
+  padding: 10px; }
 
 main.obj-main-tablle-list {
   max-width: 980px;
-  background: gray;
-  /* display: table-footer-group; */
   margin: 0 auto; }
+
+.obj-main-h1, .h1 {
+  background: white; }
+
+.obj-main-h1, .h1 {
+  text-align: center; }
 
 /*layout styles by lucas gatsas */
 /* Stylessheet by 
