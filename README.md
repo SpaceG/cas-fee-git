@@ -21,7 +21,7 @@ tasks:
 
 <code>grunt watch</code>
 
-<code>grunt build</code>
+<code>grunt uglify</code>
 
 
 <code>$ node app.js</code>
