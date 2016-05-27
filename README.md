@@ -14,7 +14,7 @@ cassfee-1.png
 <code>$ node app.js</code>
 
 
-Check your <code>localhost:3000</code>
+Check your <code>localhost:8000</code>
 
 
 <h1>Upcomimg Setings!</h1>
