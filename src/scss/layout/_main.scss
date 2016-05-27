@@ -241,7 +241,16 @@ ul.obj-nav-right {
      padding-left: 20px;
 
 }
-
+menu-top-notice-btn, li {
+	border: 1px solid rgba(0, 128, 0, 0.33);
+    border-radius: 4px;
+    color: green;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
 /* Main Tablle Settings and Stylesheet */ 
 
 table {}
