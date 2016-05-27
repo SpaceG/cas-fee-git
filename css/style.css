@@ -63,6 +63,9 @@ footer {
   font-size: 9px;
   text-align: center; }
 
+main {
+  background: gray; }
+
 .btn {
   background: white;
   color: #4CAF50;
