@@ -57,7 +57,11 @@ header, .h1 {
   text-align: center; }
 
 footer {
-  /*width:100%;*/ }
+  width: 100%;
+  background: #4CAF50;
+  color: white;
+  font-size: 9px;
+  text-align: center; }
 
 .btn {
   background: white;

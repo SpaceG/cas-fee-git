@@ -62,7 +62,13 @@ header, .h1 {
     font-size: 14px; 
     text-align:center;
 }
-footer, {/*width:100%;*/
+footer, {
+	width:100%;
+    background: #4CAF50;
+    color:white;
+    font-size: 9px;
+    text-align:center;
+
 }
 
 main {}
