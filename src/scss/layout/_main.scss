@@ -72,8 +72,22 @@ h4 {
 .btn {
 	background:white;
     color: #4CAF50;
+    margin-top: 10px;
     padding: 2px;
-    font-size: 12px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 9px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #4CAF50;
+}.btn:hover {
+	background:#4CAF50;
+    color: white;
+    margin-top: 10px;
+    padding: 2px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 9px;
     cursor: pointer;
     border-radius: 4px;
     border: 1px solid #4CAF50;
