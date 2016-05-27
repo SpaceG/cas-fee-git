@@ -1,7 +1,10 @@
 var http = require('http');
 var fs = require('fs');
 
+
 http.createServer(function(request, response) {
+	    console.log('request starting...');
+
 	var url = request.url;
 	switch(url) {
 		case '/' :
@@ -10,8 +13,11 @@ http.createServer(function(request, response) {
 		case '/add':
 			getStaticFileContent(response, 'public/add.html','text/html');
 			break;
-		case '/about':
-			getStaticFileContent(response, 'public/about.html','text/html');
+		case '/css/style.css':
+			getStaticFileContent(response, 'css/style.css','text/css');
+			break;
+		case '/js/app.min.js':
+			getStaticFileContent(response, 'js/app.min.js','text/javascript');
 			break;
 		default:
 
@@ -19,20 +25,28 @@ http.createServer(function(request, response) {
 		response.end('404 - Page not Found');
 }
 
-}).listen(3000);
+}).listen(8000);
 console.log('Hello World, this is the Cas Fee Projekt Nr.1');
-console.log('Server Running at localhost:3000');
+console.log('Server Running at localhost:80');
 
 
 function getStaticFileContent(response, filepath, contentType) {
 	fs.readFile(filepath, function(error, data){
 		if(error) {
 			response.writeHead(500,{'Content-Type':'text/plain'});
-			response.end('500 -Onternal Server Error');
+			response.end('500 - Internal Server Error');
 	}
 	if(data) {
-			response.writeHead(500,{'Content-Type':'text/html'});
+			response.writeHead(200, { 'Content-Type': contentType });
 			response.end(data);
 		}
+			else {
+					response.writeHead(200, { 'Content-Type': contentType });
+					response.end(content, 'utf-8');
+				}
 	});
 }
+
+
+
+
