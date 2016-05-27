@@ -160,6 +160,10 @@ ul.obj-nav-right {
   padding-top: 15px;
   padding-left: 15px; }
 
+/* Menu On top stylesheet */
+.obj-menu-top-notice-inner, ul {
+  display: -webkit-box; }
+
 /*layout styles by lucas gatsas */
 /* Stylessheet by 
    Lucas Gatsas. 
