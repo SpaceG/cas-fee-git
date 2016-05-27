@@ -5,25 +5,69 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css
 ">
-
-
 </head>
 <body>
 <nav class="obj-nav-main">
-<div class="obj-nav-main-logo-flash">
-<h1>This will be the Nav. app</h1>
-</div>
-<ul class="obj-nav-right">
-	<li>Switch</li>
-</ul>
-</nav>
-<header><h1>This will be the header</h1></header>
-<main><h1>this will be the main section</h1></main>
-<footer><h1>this will be the Footer</h1></footer>
+	<div class="obj-nav-main-logo-flash">
+		 <div class="addbtn">
+		 	<a href="/add" class="adding-btn"><h1><i class="fa fa-envelope-o" aria-hidden="true"></i>
+NOTICE</h1></a>
+		 </div>
+	</div>
+	<ul class="obj-nav-right">
+	<!--	<li>Switch</li> -->
 
-hello
+		<div class="dropdown">
+		  <button class="switchbtn"><i class="fa fa-envira" aria-hidden="true"></i>
+		Switch</button>
+			  <div class="dropdown-content">
+				    <a href="#">Blue</a>
+				    <a href="#">Green</a>
+				    <a href="#">Default</a>
+			  </div>
+		</div>
+	</ul>
+</nav>
+<header class="obj-header-main"><h1>Good Morning!</h1></header>
+<section class="obj-menu-top-notice"> 
+	<div class="obj-menu-top-notice-inner">
+			<ul>
+				<li class="menu-top-notice-btn">finish Date</li>
+				<li class="menu-top-notice-btn">created Date</li>
+				<li class="menu-top-notice-btn">Importance</li>
+			</ul>
+<ul class="menu-top-notice-btn-right">
+				<li class="menu-top-notice-btn">show finished</li>
+	
+			</ul>
+	</div>
+
+</section>
+<main class="obj-main-tablle-list">
+		<div class="obj-main-h1">
+			<h1>this will be the main section</h1>
+		</div>
+
+
+<form action="demo_form.asp" id="usrform">
+  Title: <input type="text" name="usrname">
+</form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
+  <input type="submit">
+
+<i class="fa fa-bolt" aria-hidden="true"></i>
+<i class="fa fa-bolt" aria-hidden="true"></i>
+<i class="fa fa-bolt" aria-hidden="true"></i>
+
+
+</main>
+		<footer>
+		<h1>this will be the Footer</h1>
+		</footer>
+	
 
 <script src="./js/app.min.js"></script>
-
 </body>
 </html>

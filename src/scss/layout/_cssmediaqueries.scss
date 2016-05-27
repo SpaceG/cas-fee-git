@@ -37,13 +37,21 @@ menu-top-notice-btn, li {
     font-size: 12px;
     font-weight: 600;
     display: table-header-group;
+    cursor: pointer;
+}
+ul.obj-nav-right {
+    margin-top: 20px;
+    margin-right: 0px;
+    float: right;
+  }
+}
 
-}}
 @media only screen and  (min-width: 760px) {
   body { 
  /* max-width: 760px; */
   background:white;
-}}
+  }
+}
 
 /* Mittlere Monitore */
 @media only screen and (min-width: 980px) {
