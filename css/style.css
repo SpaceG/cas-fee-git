@@ -46,8 +46,9 @@ nav {
   /*width:100%;*/ }
 
 header {
-  /*width:100%;*/
-  padding-top: 40px; }
+  width: 100%;
+  padding-top: 40px;
+  background: #4CAF50; }
 
 footer {
   /*width:100%;*/ }
@@ -163,7 +164,7 @@ Wert  screen and (max-width: 300px)
 /* Tabletts */
 @media only screen and (min-width: 760px) {
   body {
-    max-width: 760px;
+    /* max-width: 760px; */
     background: white; } }
 
 /* Mittlere Monitore */
